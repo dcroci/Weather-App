@@ -36,12 +36,10 @@ btn.addEventListener('click', (e) => {
       return response.json();
     })
     .then((data) => {
-      // Use the data received from the API
       console.log(data);
       updateCard(data);
     })
     .catch((error) => {
-      // Handle any errors that occurred during the fetch request
       console.error('Error fetching data:', error);
     });
 });
