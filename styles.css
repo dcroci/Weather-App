@@ -188,6 +188,7 @@ input {
   width: 100%;
   border-radius: 20px;
   font-size: 16px;
+  padding: 0.3rem;
 }
 button {
   width: 50%;
@@ -197,7 +198,8 @@ button {
   color: white;
   border: none;
   border-radius: 5px;
-  padding: 0.3rem;
+  padding: 0.5rem;
+  font-size: 16px;
 }
 button:hover {
   background-color: rgb(26, 22, 88);

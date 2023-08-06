@@ -22,6 +22,9 @@ const updateCard = (data) => {
     bottomsText.textContent = 'It is definitely a pants day!';
   }
 };
+const resetInput = () => {
+  cityInput.value = '';
+};
 
 btn.addEventListener('click', (e) => {
   e.preventDefault();
@@ -42,4 +45,5 @@ btn.addEventListener('click', (e) => {
     .catch((error) => {
       console.error('Error fetching data:', error);
     });
+  resetInput();
 });
