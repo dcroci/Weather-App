@@ -1,3 +1,4 @@
+alert('TEST');
 const card = document.querySelector('.card');
 const img = document.querySelector('img');
 const cityName = document.querySelector('.city-name');
