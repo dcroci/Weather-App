@@ -28,7 +28,7 @@ btn.addEventListener('click', (e) => {
   e.preventDefault();
   cityValue = cityInput.value;
   fetch(
-    `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${cityValue}&aqi=no`
+    `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${cityValue}&aqi=yes`
   )
     .then((response) => {
       if (!response.ok) {
