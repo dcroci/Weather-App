@@ -141,6 +141,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
+  margin-top: 33%;
   background: rgb(2, 62, 138);
   background: linear-gradient(
     90deg,
@@ -149,7 +150,7 @@ body {
     rgba(72, 202, 228, 1) 100%
   );
   justify-content: center;
-  height: 100vh;
+  height: 100%;
   color: white;
 }
 .card {
@@ -221,4 +222,8 @@ form {
 }
 button {
   margin-bottom: 0.5rem;
+}
+.umbrella-q {
+  cursor: pointer;
+  text-decoration: underline;
 }
